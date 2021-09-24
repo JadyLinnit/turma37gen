@@ -3,16 +3,26 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+	  inteiro anos, meses, dias, soma 
+
+	  escreva("Diga quantos anos você tem ?")
+	  leia(anos)
+	  escreva("Quantos meses você tem ?")
+	  leia(meses)
+	  escreva("Quantos dias você tem?")
+	  leia(dias)
+
+	  soma = (anos*365)+(meses*30)+dias
+	  escreva ( "Você viveu "  + soma + " dias.")
+		
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 69; 
+ * @POSICAO-CURSOR = 319; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
