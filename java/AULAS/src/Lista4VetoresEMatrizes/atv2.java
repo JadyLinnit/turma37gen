@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class atv2 {
-	public static void main (String[] args) {
+	  public static void main (String[] args) {
 		
 		Scanner leia = new Scanner(System.in);
 		Random random = new Random();
